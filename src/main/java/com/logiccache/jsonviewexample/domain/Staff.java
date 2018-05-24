@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Data
 @Builder
 public class Staff {
-    private Long id;
+    private String id;
 
     private String name;
 

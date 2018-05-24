@@ -19,7 +19,7 @@ public class StaffControllerImpl implements StaffController {
     }
 
     @Override
-    public StaffDto doGetStaffMember(Long id) {
+    public StaffDto doGetStaffMember(String id) {
         return modelMapper.map(staffService.staffMember(id), StaffDto.class);
     }
 }

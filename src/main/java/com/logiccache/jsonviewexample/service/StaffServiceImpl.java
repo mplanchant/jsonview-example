@@ -10,9 +10,9 @@ import java.time.Month;
 @Service
 public class StaffServiceImpl implements StaffService {
     @Override
-    public Staff staffMember(Long id) {
+    public Staff staffMember(String id) {
         return Staff.builder()
-                .id(1_000L)
+                .id("1000")
                 .name("Joe Bloggs")
                 .dateOfBirth(LocalDate.of(2010, Month.AUGUST, 3))
                 .department("IT")
