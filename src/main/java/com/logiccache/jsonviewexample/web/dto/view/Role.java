@@ -1,4 +1,4 @@
-package com.logiccache.jsonviewexample.web;
+package com.logiccache.jsonviewexample.web.dto.view;
 
 public enum Role {
     PUBLIC("public"),

@@ -1,7 +1,7 @@
 package com.logiccache.jsonviewexample.web.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.logiccache.jsonviewexample.web.View;
+import com.logiccache.jsonviewexample.web.dto.view.View;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @Data
 public class StaffDto {
 
-    @JsonView(View.Anonymous.class)
     private String id;
 
     @JsonView(View.Public.class)

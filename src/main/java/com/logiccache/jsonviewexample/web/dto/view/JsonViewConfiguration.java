@@ -1,4 +1,4 @@
-package com.logiccache.jsonviewexample.web;
+package com.logiccache.jsonviewexample.web.dto.view;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
@@ -9,6 +9,7 @@ import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.AbstractMappingJacksonResponseBodyAdvice;
 
+@ControllerAdvice
 public class JsonViewConfiguration extends AbstractMappingJacksonResponseBodyAdvice {
 
     @Override
