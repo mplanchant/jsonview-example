@@ -10,6 +10,7 @@ import java.time.LocalDate;
 @Data
 public class StaffDto {
 
+    @JsonView(View.Anonymous.class)
     private String id;
 
     @JsonView(View.Public.class)

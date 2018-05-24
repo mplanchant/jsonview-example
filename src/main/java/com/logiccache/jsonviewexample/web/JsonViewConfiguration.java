@@ -9,7 +9,6 @@ import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.AbstractMappingJacksonResponseBodyAdvice;
 
-@ControllerAdvice
 public class JsonViewConfiguration extends AbstractMappingJacksonResponseBodyAdvice {
 
     @Override
