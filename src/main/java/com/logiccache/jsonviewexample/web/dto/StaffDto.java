@@ -1,8 +1,8 @@
 package com.logiccache.jsonviewexample.web.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import lombok.Data;
 import com.logiccache.jsonviewexample.web.View;
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

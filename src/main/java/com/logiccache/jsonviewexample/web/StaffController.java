@@ -1,9 +1,9 @@
 package com.logiccache.jsonviewexample.web;
 
+import com.logiccache.jsonviewexample.web.dto.StaffDto;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import com.logiccache.jsonviewexample.web.dto.StaffDto;
 
 public interface StaffController {
 
